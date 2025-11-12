@@ -60,14 +60,21 @@ h1, h2, h3{
 h2{
 	margin: 0;
 	padding: 4px;
-	text-decoration: dotted underline var(--teal) 4px;
+	text-decoration-line: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: var(--teal);
+	text-decoration-thickness: 4px;
+	text-underline-offset: 6px;
 }
 
 h3{
 	margin: 0;
 	padding: 4px;
-	/* add an underline like the one on the h2s to the h3s, but make it solid and mint color */
-    text-decoration: solid underline var(--mint) 4px;
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	text-decoration-color: var(--mint);
+	text-decoration-thickness: 4px;
+	text-underline-offset: 6px;
 }
 
 nav{
